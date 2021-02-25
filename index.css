@@ -1,0 +1,77 @@
+figure {
+    background-color:  #544F53;
+    width: 840px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0 5px 30px;
+}
+.container {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Houston {
+    z-index: 1;
+    width: 140px;
+    height: 180px;
+    display: inline;
+    position:relative;
+    top: 15px;
+    left: 35px;
+}
+#NewYork {
+    z-index: 1;
+    width: 169px;
+    height: 180px;
+    display: inline;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+#Boston { 
+    z-index: 1;
+    width: 210px;
+    height: 159px;
+    display: inline;
+    position: relative;
+    top: 35px;
+    left: 0px;
+}
+.sub-box1, .sub-box2, .sub-box3 {
+background-color: #AB1F83;
+z-index: 2;
+width: 22px;
+height: 24px;
+text-align: center;
+padding-top: 6px;
+}
+.sub-box1 {
+    display: inline;
+position: relative;
+top: -165px;
+left: 35px;
+}
+.sub-box2 {
+    display: inline;
+position: relative;
+top: -165px;
+left: 20px;
+}
+.sub-box3 {
+    display: inline;
+    position: relative;
+    top: -142px;
+    left: 0px;
+}
+.first {
+    width: 280px;
+    height: 250px;
+}
+.footer , h2, p {
+    font-family:'Nunito Sans', sans-serif;
+    color: white;
+}
