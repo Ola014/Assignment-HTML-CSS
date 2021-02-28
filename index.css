@@ -1,77 +1,77 @@
-figure {
-    background-color:  #544F53;
-    width: 840px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 30px 0 5px 30px;
+*{
+    padding: 0;
+    margin: 0;
 }
 .container {
-    width: 280px;
-    height: 300px;
+    background-color:  #544F53;
+    width:65%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0 5px 30px;
+    margin: 0 auto;
+}
+.first {
+    width: 31%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 #Houston {
-    z-index: 1;
-    width: 140px;
-    height: 180px;
-    display: inline;
+    width: 70%;
+    height: 71%;
+    display : inline;
     position:relative;
     top: 15px;
     left: 35px;
 }
 #NewYork {
-    z-index: 1;
-    width: 169px;
-    height: 180px;
+    width: 70%;
+    height: 77%;
     display: inline;
     position: relative;
     top: 15px;
     left: 20px;
 }
 #Boston { 
-    z-index: 1;
-    width: 210px;
-    height: 159px;
+    width: 90%;
+    height: 54%;
     display: inline;
     position: relative;
-    top: 35px;
+    top: 100px;
     left: 0px;
+}
+figcaption{
+    font-size: 35px;
+    position: absolute;
+    top: 83%;
+    left: 1%;
 }
 .sub-box1, .sub-box2, .sub-box3 {
 background-color: #AB1F83;
-z-index: 2;
 width: 22px;
 height: 24px;
 text-align: center;
 padding-top: 6px;
 }
 .sub-box1 {
-    display: inline;
-position: relative;
-top: -165px;
-left: 35px;
+position: absolute;
+top: 15px;
+left: 35px
 }
 .sub-box2 {
-    display: inline;
-position: relative;
-top: -165px;
-left: 20px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
 }
 .sub-box3 {
-    display: inline;
-    position: relative;
-    top: -142px;
-    left: 0px;
-}
-.first {
-    width: 280px;
-    height: 250px;
-}
-.footer , h2, p {
+    position: absolute;
+    top: 101px;
+    left: 1px;}
+
+.footer , figcaption, p {
     font-family:'Nunito Sans', sans-serif;
     color: white;
 }
